@@ -1,0 +1,163 @@
+{
+  "id": "cmat-logical",
+  "sectionId": "logical",
+  "title": "Logical Reasoning",
+  "description": "Series, patterns and puzzles for the reasoning section.",
+  "icon": "logical",
+  "reviewStatus": "draft",
+  "topics": [
+    {
+      "id": "logical-series",
+      "title": "Series",
+      "description": "Find the rule behind number and letter series.",
+      "lessons": [
+        {
+          "id": "cmat-logical-1",
+          "title": "Number series",
+          "objective": "Spot the rule behind a number series and find the next term.",
+          "estimatedMinutes": 5,
+          "activities": [
+            {
+              "type": "concept",
+              "title": "Look at the gaps",
+              "body": "Most series follow one rule. Write down the difference between each pair of numbers and look for a pattern.",
+              "example": "3, 7, 11, 15, ?\nGaps: +4, +4, +4\nNext: 15 + 4 = 19"
+            },
+            {
+              "type": "concept",
+              "title": "When the gaps change",
+              "body": "If the gaps are not equal, check whether the gaps themselves grow, or whether each term is multiplied or squared.",
+              "example": "2, 4, 8, 16, ?  → each term × 2 → 32\n1, 4, 9, 16, ?  → 1², 2², 3², 4² → 25"
+            },
+            {
+              "id": "logical-series-q1",
+              "type": "multipleChoice",
+              "prompt": "What comes next?",
+              "snippet": "5, 10, 20, 40, ?",
+              "options": [
+                "80",
+                "45",
+                "60",
+                "100"
+              ],
+              "correctIndex": 0,
+              "explanation": "Each term doubles, so 40 × 2 = 80."
+            },
+            {
+              "id": "logical-series-q2",
+              "type": "multipleChoice",
+              "prompt": "What comes next?",
+              "snippet": "1, 3, 6, 10, 15, ?",
+              "options": [
+                "18",
+                "20",
+                "21",
+                "25"
+              ],
+              "correctIndex": 2,
+              "hint": "Look at how the gaps change.",
+              "explanation": "The gaps are +2, +3, +4, +5, so the next gap is +6: 15 + 6 = 21."
+            },
+            {
+              "id": "logical-series-q3",
+              "type": "multipleChoice",
+              "prompt": "Which number is the odd one out?",
+              "snippet": "3, 5, 7, 9, 11",
+              "options": [
+                "3",
+                "9",
+                "7",
+                "11"
+              ],
+              "correctIndex": 1,
+              "explanation": "All the others are prime numbers. 9 is not prime, because 9 = 3 × 3."
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "passPercent": 60,
+        "questions": [
+          {
+            "id": "logical-series-cp1",
+            "type": "multipleChoice",
+            "prompt": "What comes next?",
+            "snippet": "4, 9, 16, 25, ?",
+            "options": [
+              "30",
+              "36",
+              "35",
+              "49"
+            ],
+            "correctIndex": 1,
+            "explanation": "These are squares: 2², 3², 4², 5², so next is 6² = 36."
+          },
+          {
+            "id": "logical-series-cp2",
+            "type": "multipleChoice",
+            "prompt": "What comes next?",
+            "snippet": "3, 6, 12, 24, ?",
+            "options": [
+              "48",
+              "36",
+              "30",
+              "42"
+            ],
+            "correctIndex": 0,
+            "explanation": "Each term doubles, so 24 × 2 = 48."
+          },
+          {
+            "id": "logical-series-cp3",
+            "type": "multipleChoice",
+            "prompt": "What comes next?",
+            "snippet": "2, 3, 5, 8, 12, ?",
+            "options": [
+              "15",
+              "16",
+              "17",
+              "18"
+            ],
+            "correctIndex": 2,
+            "explanation": "The gaps are +1, +2, +3, +4, so the next gap is +5: 12 + 5 = 17."
+          }
+        ]
+      }
+    },
+    {
+      "id": "logical-coding",
+      "title": "Coding-decoding",
+      "description": "Crack how words and numbers are coded.",
+      "lessons": []
+    },
+    {
+      "id": "logical-blood-relations",
+      "title": "Blood relations",
+      "description": "Work out family relationships.",
+      "lessons": []
+    },
+    {
+      "id": "logical-directions",
+      "title": "Directions",
+      "description": "Track movements and find the final position.",
+      "lessons": []
+    },
+    {
+      "id": "logical-analogies",
+      "title": "Analogies",
+      "description": "Spot the relationship between pairs.",
+      "lessons": []
+    },
+    {
+      "id": "logical-syllogisms",
+      "title": "Syllogisms",
+      "description": "Decide which conclusions really follow.",
+      "lessons": []
+    },
+    {
+      "id": "logical-arrangements",
+      "title": "Arrangements",
+      "description": "Seating and ordering puzzles.",
+      "lessons": []
+    }
+  ]
+}

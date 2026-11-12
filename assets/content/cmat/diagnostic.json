@@ -1,0 +1,119 @@
+{
+  "reviewStatus": "draft",
+  "questions": [
+    {
+      "id": "diagnostic-verbal-1",
+      "sectionId": "verbal",
+      "type": "multipleChoice",
+      "prompt": "Choose the word closest in meaning to RAPID.",
+      "options": [
+        "Slow",
+        "Quick",
+        "Heavy",
+        "Quiet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rapid means happening very quickly."
+    },
+    {
+      "id": "diagnostic-verbal-2",
+      "sectionId": "verbal",
+      "type": "fillInBlank",
+      "prompt": "Complete the sentence.",
+      "textBefore": "She ",
+      "textAfter": " to college every day.",
+      "choices": [
+        "go",
+        "goes",
+        "going"
+      ],
+      "correctIndex": 1,
+      "explanation": "With he, she or it in the simple present, the verb takes -s: she goes."
+    },
+    {
+      "id": "diagnostic-quant-1",
+      "sectionId": "quant",
+      "type": "multipleChoice",
+      "prompt": "What is 15% of 200?",
+      "options": [
+        "30",
+        "15",
+        "20",
+        "45"
+      ],
+      "correctIndex": 0,
+      "explanation": "10% of 200 is 20 and 5% is 10, so 15% is 30."
+    },
+    {
+      "id": "diagnostic-quant-2",
+      "sectionId": "quant",
+      "type": "multipleChoice",
+      "prompt": "After a 20% discount, a shirt costs Rs. 800. What was the original price?",
+      "options": [
+        "Rs. 960",
+        "Rs. 1,000",
+        "Rs. 1,040",
+        "Rs. 1,200"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rs. 800 is 80% of the original price, so the original was 800 ÷ 0.8 = Rs. 1,000."
+    },
+    {
+      "id": "diagnostic-logical-1",
+      "sectionId": "logical",
+      "type": "multipleChoice",
+      "prompt": "What comes next?",
+      "snippet": "2, 6, 12, 20, 30, ?",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "correctIndex": 2,
+      "explanation": "The gaps grow by 2 each time (+4, +6, +8, +10), so the next gap is +12: 30 + 12 = 42."
+    },
+    {
+      "id": "diagnostic-logical-2",
+      "sectionId": "logical",
+      "type": "multipleChoice",
+      "prompt": "If CAT is written as DBU, how is DOG written?",
+      "options": [
+        "EPH",
+        "EPG",
+        "DPH",
+        "CNF"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each letter moves one step forward in the alphabet: D→E, O→P, G→H."
+    },
+    {
+      "id": "diagnostic-general-1",
+      "sectionId": "general",
+      "type": "multipleChoice",
+      "prompt": "How many provinces does Nepal have?",
+      "options": [
+        "5",
+        "7",
+        "14",
+        "77"
+      ],
+      "correctIndex": 1,
+      "explanation": "Since the Constitution of Nepal (2015), the country has seven provinces."
+    },
+    {
+      "id": "diagnostic-general-2",
+      "sectionId": "general",
+      "type": "multipleChoice",
+      "prompt": "Lumbini, a UNESCO World Heritage Site, is the birthplace of:",
+      "options": [
+        "King Janak",
+        "Gautama Buddha",
+        "Araniko",
+        "Prithvi Narayan Shah"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lumbini, in Rupandehi district, is where Siddhartha Gautama, the Buddha, was born."
+    }
+  ]
+}

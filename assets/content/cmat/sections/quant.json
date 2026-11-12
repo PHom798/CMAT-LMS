@@ -1,0 +1,158 @@
+{
+  "id": "cmat-quant",
+  "sectionId": "quant",
+  "title": "Quantitative Ability",
+  "description": "Arithmetic, percentages and data for the maths section.",
+  "icon": "quant",
+  "reviewStatus": "draft",
+  "topics": [
+    {
+      "id": "quant-percentages",
+      "title": "Percentages",
+      "description": "Find percentages fast, including increases and decreases.",
+      "lessons": [
+        {
+          "id": "cmat-quant-1",
+          "title": "Percentages",
+          "objective": "Find percentages fast, including increases and decreases.",
+          "estimatedMinutes": 5,
+          "activities": [
+            {
+              "type": "concept",
+              "title": "Percent means per hundred",
+              "body": "25% means 25 out of every 100. To find a percentage of a number, multiply by the percentage and divide by 100.",
+              "example": "20% of 150 = 20 × 150 ÷ 100 = 30"
+            },
+            {
+              "type": "concept",
+              "title": "Use 10% as a shortcut",
+              "body": "10% of any number is that number divided by 10. Build other percentages from it: 5% is half of 10%, and 20% is double.",
+              "example": "10% of 640 = 64\n5% of 640 = 32\nSo 15% of 640 = 64 + 32 = 96"
+            },
+            {
+              "id": "quant-percentages-q1",
+              "type": "multipleChoice",
+              "prompt": "What is 25% of 360?",
+              "options": [
+                "90",
+                "72",
+                "80",
+                "100"
+              ],
+              "correctIndex": 0,
+              "hint": "25% is the same as one quarter.",
+              "explanation": "25% is one quarter, and 360 ÷ 4 = 90."
+            },
+            {
+              "id": "quant-percentages-q2",
+              "type": "multipleChoice",
+              "prompt": "A price rises from Rs. 500 to Rs. 600. What is the percentage increase?",
+              "options": [
+                "10%",
+                "16.7%",
+                "20%",
+                "25%"
+              ],
+              "correctIndex": 2,
+              "hint": "Compare the change with the original price.",
+              "explanation": "The increase is Rs. 100 on an original Rs. 500, and 100 ÷ 500 = 20%."
+            },
+            {
+              "id": "quant-percentages-q3",
+              "type": "multipleChoice",
+              "prompt": "40 is what percent of 160?",
+              "options": [
+                "4%",
+                "25%",
+                "20%",
+                "40%"
+              ],
+              "correctIndex": 1,
+              "explanation": "40 ÷ 160 = 0.25, which is 25%."
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "passPercent": 60,
+        "questions": [
+          {
+            "id": "quant-percentages-cp1",
+            "type": "multipleChoice",
+            "prompt": "What is 30% of 250?",
+            "options": [
+              "60",
+              "75",
+              "80",
+              "90"
+            ],
+            "correctIndex": 1,
+            "explanation": "10% of 250 is 25, so 30% is 3 × 25 = 75."
+          },
+          {
+            "id": "quant-percentages-cp2",
+            "type": "multipleChoice",
+            "prompt": "A salary of Rs. 20,000 increases by 15%. What is the new salary?",
+            "options": [
+              "Rs. 23,000",
+              "Rs. 21,500",
+              "Rs. 23,500",
+              "Rs. 35,000"
+            ],
+            "correctIndex": 0,
+            "explanation": "15% of 20,000 is 3,000, so the new salary is Rs. 23,000."
+          },
+          {
+            "id": "quant-percentages-cp3",
+            "type": "multipleChoice",
+            "prompt": "A Rs. 1,200 phone is sold at a 25% discount. What is the sale price?",
+            "options": [
+              "Rs. 300",
+              "Rs. 900",
+              "Rs. 950",
+              "Rs. 1,000"
+            ],
+            "correctIndex": 1,
+            "explanation": "25% of 1,200 is 300, so the sale price is 1,200 − 300 = Rs. 900."
+          }
+        ]
+      }
+    },
+    {
+      "id": "quant-ratio",
+      "title": "Ratio and proportion",
+      "description": "Compare quantities and share in a given ratio.",
+      "lessons": []
+    },
+    {
+      "id": "quant-profit-loss",
+      "title": "Profit and loss",
+      "description": "Cost price, selling price, profit and discount.",
+      "lessons": []
+    },
+    {
+      "id": "quant-interest",
+      "title": "Simple and compound interest",
+      "description": "How money grows over time.",
+      "lessons": []
+    },
+    {
+      "id": "quant-time-work",
+      "title": "Time and work",
+      "description": "How long tasks take when people work together.",
+      "lessons": []
+    },
+    {
+      "id": "quant-algebra",
+      "title": "Basic algebra",
+      "description": "Equations and expressions you can solve quickly.",
+      "lessons": []
+    },
+    {
+      "id": "quant-data-interpretation",
+      "title": "Data interpretation",
+      "description": "Read tables and charts to answer questions.",
+      "lessons": []
+    }
+  ]
+}

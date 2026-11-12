@@ -1,0 +1,155 @@
+{
+  "id": "cmat-general",
+  "sectionId": "general",
+  "title": "General Awareness",
+  "description": "Nepal, the world and everyday knowledge for the GK section.",
+  "icon": "general",
+  "reviewStatus": "draft",
+  "topics": [
+    {
+      "id": "general-nepal-constitution",
+      "title": "Nepal: constitution and government",
+      "description": "Nepal's federal structure and key institutions.",
+      "lessons": [
+        {
+          "id": "cmat-general-1",
+          "title": "Nepal at a glance",
+          "objective": "Know the basics of Nepal's federal structure and central bank.",
+          "estimatedMinutes": 5,
+          "activities": [
+            {
+              "type": "concept",
+              "title": "A federal republic",
+              "body": "The Constitution of Nepal was promulgated in 2015 (2072 BS). It made Nepal a federal democratic republic with three levels of government: federal, provincial and local.",
+              "example": "7 provinces\n77 districts\n753 local levels"
+            },
+            {
+              "type": "concept",
+              "title": "The central bank",
+              "body": "Nepal Rastra Bank, established in 1956, is the central bank. It issues the Nepalese rupee and sets the country's monetary policy."
+            },
+            {
+              "id": "general-nepal-constitution-q1",
+              "type": "multipleChoice",
+              "prompt": "How many local levels does Nepal have?",
+              "options": [
+                "7",
+                "77",
+                "165",
+                "753"
+              ],
+              "correctIndex": 3,
+              "explanation": "There are 753 local levels: metropolitan and sub-metropolitan cities, municipalities and rural municipalities."
+            },
+            {
+              "id": "general-nepal-constitution-q2",
+              "type": "multipleChoice",
+              "prompt": "Which institution issues Nepal's currency?",
+              "options": [
+                "Ministry of Finance",
+                "Nepal Rastra Bank",
+                "Nepal Bank Limited",
+                "Nepal Stock Exchange"
+              ],
+              "correctIndex": 1,
+              "explanation": "Nepal Rastra Bank, the central bank, issues the Nepalese rupee."
+            },
+            {
+              "id": "general-nepal-constitution-q3",
+              "type": "multipleChoice",
+              "prompt": "In which year was the current Constitution of Nepal promulgated?",
+              "options": [
+                "1990",
+                "2006",
+                "2008",
+                "2015"
+              ],
+              "correctIndex": 3,
+              "explanation": "The Constitution of Nepal was promulgated in 2015 (2072 BS)."
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "passPercent": 60,
+        "questions": [
+          {
+            "id": "general-nepal-constitution-cp1",
+            "type": "multipleChoice",
+            "prompt": "How many districts does Nepal have?",
+            "options": [
+              "7",
+              "75",
+              "77",
+              "753"
+            ],
+            "correctIndex": 2,
+            "explanation": "Nepal has 77 districts across its seven provinces."
+          },
+          {
+            "id": "general-nepal-constitution-cp2",
+            "type": "multipleChoice",
+            "prompt": "In which year was Nepal Rastra Bank established?",
+            "options": [
+              "1951",
+              "1956",
+              "1990",
+              "2008"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nepal Rastra Bank was established in 1956."
+          },
+          {
+            "id": "general-nepal-constitution-cp3",
+            "type": "multipleChoice",
+            "prompt": "How many levels of government does Nepal's federal system have?",
+            "options": [
+              "Three",
+              "Two",
+              "Four",
+              "Seven"
+            ],
+            "correctIndex": 0,
+            "explanation": "Federal, provincial and local: three levels of government."
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-nepal-geography",
+      "title": "Nepal: geography",
+      "description": "Regions, rivers, mountains and provinces.",
+      "lessons": []
+    },
+    {
+      "id": "general-nepal-history",
+      "title": "Nepal: history",
+      "description": "Key events and people that shaped the nation.",
+      "lessons": []
+    },
+    {
+      "id": "general-economy",
+      "title": "Economy and business",
+      "description": "Banking, trade and business basics.",
+      "lessons": []
+    },
+    {
+      "id": "general-world",
+      "title": "The world",
+      "description": "Countries, capitals and international organisations.",
+      "lessons": []
+    },
+    {
+      "id": "general-science",
+      "title": "Science and technology",
+      "description": "Everyday science and new technology.",
+      "lessons": []
+    },
+    {
+      "id": "general-current-affairs",
+      "title": "Current affairs",
+      "description": "Recent national and international news.",
+      "lessons": []
+    }
+  ]
+}

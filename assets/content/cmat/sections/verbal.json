@@ -1,0 +1,144 @@
+{
+  "id": "cmat-verbal",
+  "sectionId": "verbal",
+  "title": "Verbal Ability",
+  "description": "Grammar, vocabulary and reading skills for the English section.",
+  "icon": "verbal",
+  "reviewStatus": "draft",
+  "topics": [
+    {
+      "id": "verbal-tenses-agreement",
+      "title": "Tenses and agreement",
+      "description": "Use the right verb form for every subject and time.",
+      "lessons": [
+        {
+          "id": "cmat-verbal-1",
+          "title": "Subject-verb agreement",
+          "objective": "Match verbs to their subjects, even in tricky sentences.",
+          "estimatedMinutes": 5,
+          "activities": [
+            {
+              "type": "concept",
+              "title": "Singular subject, singular verb",
+              "body": "In the simple present, a singular subject (he, she, it, or one person or thing) takes a verb ending in -s. A plural subject does not.",
+              "example": "The boy plays football.\nThe boys play football."
+            },
+            {
+              "type": "concept",
+              "title": "Watch out for tricky subjects",
+              "body": "Each, every and everyone are singular. Ignore the words between the subject and the verb: find the real subject first.",
+              "example": "Each of the students has a book.\nThe box of pens is on the desk."
+            },
+            {
+              "id": "verbal-tenses-agreement-q1",
+              "type": "fillInBlank",
+              "prompt": "Complete the sentence.",
+              "textBefore": "The list of items ",
+              "textAfter": " on the table.",
+              "choices": [
+                "is",
+                "are"
+              ],
+              "correctIndex": 0,
+              "hint": "What is on the table: the list, or the items?",
+              "explanation": "The subject is \"list\", which is singular. \"Of items\" is just extra detail."
+            },
+            {
+              "id": "verbal-tenses-agreement-q2",
+              "type": "multipleChoice",
+              "prompt": "Which sentence is correct?",
+              "options": [
+                "Everyone have finished.",
+                "Everyone has finished.",
+                "Everyone are finished."
+              ],
+              "correctIndex": 1,
+              "explanation": "Everyone is singular, so it takes has."
+            },
+            {
+              "id": "verbal-tenses-agreement-q3",
+              "type": "fillInBlank",
+              "prompt": "Complete the sentence.",
+              "textBefore": "My parents ",
+              "textAfter": " in Kathmandu.",
+              "choices": [
+                "lives",
+                "live",
+                "living"
+              ],
+              "correctIndex": 1,
+              "explanation": "Parents is plural, so the verb has no -s: my parents live."
+            }
+          ]
+        }
+      ],
+      "checkpoint": {
+        "passPercent": 60,
+        "questions": [
+          {
+            "id": "verbal-tenses-agreement-cp1",
+            "type": "fillInBlank",
+            "prompt": "Complete the sentence.",
+            "textBefore": "Neither of the answers ",
+            "textAfter": " correct.",
+            "choices": [
+              "is",
+              "are"
+            ],
+            "correctIndex": 0,
+            "explanation": "Neither is singular, so it takes is."
+          },
+          {
+            "id": "verbal-tenses-agreement-cp2",
+            "type": "multipleChoice",
+            "prompt": "Which sentence is correct?",
+            "options": [
+              "She don't like tea.",
+              "She doesn't like tea.",
+              "She not like tea."
+            ],
+            "correctIndex": 1,
+            "explanation": "With she, the simple present negative is doesn't + verb."
+          },
+          {
+            "id": "verbal-tenses-agreement-cp3",
+            "type": "fillInBlank",
+            "prompt": "Complete the sentence.",
+            "textBefore": "The books on the shelf ",
+            "textAfter": " old.",
+            "choices": [
+              "is",
+              "are"
+            ],
+            "correctIndex": 1,
+            "explanation": "The subject is books, which is plural. On the shelf is extra detail."
+          }
+        ]
+      }
+    },
+    {
+      "id": "verbal-articles-prepositions",
+      "title": "Articles and prepositions",
+      "description": "A, an, the, and the small words that link ideas.",
+      "lessons": []
+    },
+    {
+      "id": "verbal-vocabulary",
+      "title": "Vocabulary",
+      "description": "Synonyms, antonyms and one-word substitutes.",
+      "lessons": []
+    },
+    {
+      "id": "verbal-sentence-correction",
+      "title": "Sentence correction",
+      "description": "Spot and fix errors in a sentence.",
+      "lessons": []
+    },
+    {
+      "id": "verbal-reading",
+      "title": "Reading comprehension",
+      "description": "Read a passage and answer questions about it.",
+      "lessons": []
+    }
+  ]
+}

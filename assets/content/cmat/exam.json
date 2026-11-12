@@ -1,0 +1,49 @@
+{
+  "id": "cmat",
+  "title": "CMAT",
+  "fullTitle": "Central Management Admission Test",
+  "conductedBy": "Faculty of Management, Tribhuvan University",
+  "durationMinutes": 90,
+  "totalQuestions": 100,
+  "passPercent": 40,
+  "negativeMarking": false,
+  "reviewStatus": "draft",
+  "sections": [
+    {
+      "id": "verbal",
+      "title": "Verbal Ability",
+      "shortLabel": "Eng",
+      "description": "Grammar, vocabulary and reading.",
+      "questionCount": 25,
+      "icon": "verbal",
+      "courseFile": "assets/content/cmat/sections/verbal.json"
+    },
+    {
+      "id": "quant",
+      "title": "Quantitative Ability",
+      "shortLabel": "Math",
+      "description": "Arithmetic, percentages and data.",
+      "questionCount": 25,
+      "icon": "quant",
+      "courseFile": "assets/content/cmat/sections/quant.json"
+    },
+    {
+      "id": "logical",
+      "title": "Logical Reasoning",
+      "shortLabel": "Logic",
+      "description": "Series, patterns and puzzles.",
+      "questionCount": 25,
+      "icon": "logical",
+      "courseFile": "assets/content/cmat/sections/logical.json"
+    },
+    {
+      "id": "general",
+      "title": "General Awareness",
+      "shortLabel": "GK",
+      "description": "Nepal, the world and everyday knowledge.",
+      "questionCount": 25,
+      "icon": "general",
+      "courseFile": "assets/content/cmat/sections/general.json"
+    }
+  ]
+}
